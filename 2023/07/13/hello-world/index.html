@@ -22,6 +22,8 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
   
   
+    <link rel="stylesheet" href="/libs/swiper/swiper-bundle.min.css"/>
+  
   
 <link rel="stylesheet" href="/css/style.css">
 
@@ -155,6 +157,12 @@
       <ul class="list-inline mb-0 text-center">
         <li class="list-inline-item">&copy; 2023 Hexo</li>
         
+          <li class="list-inline-item">
+            
+              <a href="https://beian.miit.gov.cn/" target="_blank"></a>
+              
+          </li>
+        
         <li class="list-inline-item">Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
         <li class="list-inline-item">Designer <a href="https://acorn.imaging.xin/" target="_blank">John Doe</a></li>
       </ul>
@@ -215,6 +223,18 @@
 	</script>
 
 
+
+	<!-- Swiper JS -->
+	<script src="/libs/swiper/swiper-bundle.min.js"></script>
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".oneSwiper", {
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
 
 
 
